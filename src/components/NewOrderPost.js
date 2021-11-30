@@ -16,7 +16,7 @@ const NewOrderPost = ({history}) => {
     }
     //function for submitting the new form after the user fills in
     function handleSubmit(event) {
-        event.preventDefault()
+        event.preventDefault();
         const newOrder = {
             customer_name: formState.customer_name,
             delivery_address: formState.delivery_address,
